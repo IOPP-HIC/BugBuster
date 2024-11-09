@@ -1,3 +1,3 @@
 * SMASH stops in certain sampling event.
-Reason: The mc_particle_lists contain two particles located at the same point which isn't permit in SMASH. 
-Solution: Give a random shift in position to particles sampled from the same hysurface.
+  Reason: The mc_particle_lists contain two particles located at the same point which isn't permit in SMASH. 
+  Solution: Give a random shift in position to particles sampled from the same hysurface.
