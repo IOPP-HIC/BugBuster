@@ -1,2 +1,2 @@
 # BugBuster
-Fix bugs during installation
+Record bugs and solutions in CLVisc Framework
