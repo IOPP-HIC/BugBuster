@@ -1,3 +1,8 @@
-* SMASH stops in certain sampling event.
+* SMASH stops in certain sampling event suddenly.
   Reason: The mc_particle_lists contain two particles located at the same point which isn't permit in SMASH. 
   Solution: Give a random shift in position to particles sampled from the same hysurface.
+
+* Cannot find GL/gl.h during compilation of any program supported by OPENCL or CUDA
+  Solution: check the existence of /usr/include/GL and give correct cuda path.
+
+* Certain version of SMASH only work under the support of certain version of Boost. Such as boost_1.69 for SMASH_3.
