@@ -40,3 +40,6 @@
 |pythia|8.303|8.303|8.303|8.307|8.309|8.310|8.312|
 
 * A random rotation of initial fireball in transverse plane is necessary sometimes, especially when you are calculating sth w.r.t. reaction plane(e.g. directed flow)
+
+* sampler/sampler_cpu/src/particletype.cc
+    Don't forget return pmag in the last function.
